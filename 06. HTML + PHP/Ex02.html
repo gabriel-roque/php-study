@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <form method="get" action="Ex02.php">
+            <!--Nome-->
+            <input type="text" placeholder="Nome" name="nome"><br>
+            <!--Ano de nascimento-->
+            <input type="number" placeholder="Ano de nascimento" name="nasc"><br>
+
+            <!--Sexo em box-->
+            <!--<select name="sexo">-->
+                <!--<option name="MAS">MAS</option>-->
+                <!--<option name="FEM">FEM</option>-->
+            <!--</select>-->
+
+            <!--Sexo em fieldset-->
+            <fieldset><legend>Sexo</legend>
+                <input type="radio" name="sexo" id="masc" value="Masculino"/>
+                <!--Como o tipo RADIO e uma caixa de marca e necessario especificar qual valor
+                sera passado como parametro no caso VALUE-->
+                <label for="masc">Masculino</label><br/>
+                <input type="radio" name="sexo" id="fem" value="Feminino"/>
+                <label for="fem">Feminino</label><br/>
+            </fieldset>
+
+            <!--Enviar-->
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>

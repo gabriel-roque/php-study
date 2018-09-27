@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    fieldset.operacao{
+        width: 130px;
+    }
+</style>
+<body>
+    <form method="get" action="Ex01.php">
+        <label for="num">Numero:</label>
+        <input type="number" name="numero" id="num">
+
+        <fieldset class="operacao"><legend>Operacao</legend>
+            <input type="radio" name="op" id="dobro" value="dobro">
+            <label for="dobro">Dobro</label><br>
+            <input type="radio"name="op" id="cubo" value="cubo">
+            <label for="cubo">Cubo</label><br>
+            <input type="radio" name="op" id="raizQuadrada" value="raizQuadrada">
+            <label for="raizQuadrada">Raiz Quadrada</label>
+        </fieldset><br>
+
+        <input type="submit" value="Calcular">
+
+    </form>
+</body>
+</html>

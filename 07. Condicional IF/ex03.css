@@ -1,0 +1,39 @@
+input.notas{
+    margin: 5px;
+    padding: 5px;
+    width: 50px;
+    font: bold;
+}
+
+input.calcularMedia{
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+    font: bold;
+    font-family: Roboto;
+}
+
+span.aprovado{
+    color: #1d3fff;
+    font-weight: bold;
+    ;
+}
+
+span.reprovado{
+    color: #ff0a45;
+    font-weight: bold;
+}
+
+body.corpo{
+    font-family: Roboto;
+}
+
+button.back{
+    margin: 5px;
+    padding: 5px;
+    width: 50px;
+    font: bold;
+}
+ label.back{
+     font-weight: bold;
+ }
